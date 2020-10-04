@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {BrowserRouter as Route, Link} from 'react-router-dom';
+import './blog.css';
 
 export default class Blog extends Component {
     render() {
@@ -23,7 +25,7 @@ export default class Blog extends Component {
                         <p className="blog-title"><b>Lorem ipsum dolor sit.</b> <br/> Okt 2, 2020</p>
                     </div>
                 </div>
-                <button className="btn btn-primary">All Blog</button>
+                <Link className="btn btn-primary" to={'/blog'}>All Blog</Link>
             </div>
         </section>
         )

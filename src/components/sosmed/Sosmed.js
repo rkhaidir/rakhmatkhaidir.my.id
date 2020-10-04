@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './sosmed.css';
 
 export default function Sosmed() {
     return (

@@ -1,0 +1,8 @@
+.jumbotron {
+    background-image: linear-gradient(to right, #037bfc,#00438c);
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+}

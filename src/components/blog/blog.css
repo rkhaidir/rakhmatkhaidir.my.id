@@ -1,0 +1,28 @@
+/* Blog */
+#blog {
+    padding: 20px;
+    margin: 60px 0;
+    background: #f8f9fa;
+}
+
+.blog {
+    border-left: 4px solid #0263cc;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog img {
+    height: 60px;
+    width: 100px;
+    margin: 0 10px;
+}
+.blog-title {
+    display: inline-block;
+    font-size: 12px;
+}
+#blog .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #037bfc,#00438c);
+}
