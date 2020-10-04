@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
-import Banner from '../components/Banner';
-import Service from '../components/Service';
-import Blog from '../components/Blog';
-import Sosmed from '../components/Sosmed';
-import Footer from '../components/Footer';
+import Banner from '../components/banner/Banner';
+import Service from '../components/service/Service';
+import Blog from '../components/blog/Blog';
+import Sosmed from '../components/sosmed/Sosmed';
+import Footer from '../components/footer/Footer';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar/>
                 <Banner/>
                 <Service/>
                 <Blog/>

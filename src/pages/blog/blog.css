@@ -1,0 +1,15 @@
+#blog-section {
+    min-height: 100%;
+}
+
+#blog-section img {
+    width: 150px;
+}
+
+#blog-section .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #037bfc,#00438c);
+}
