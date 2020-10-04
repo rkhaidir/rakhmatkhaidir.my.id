@@ -13,3 +13,21 @@
     border-radius: 20px;
     background-image: linear-gradient(to right, #037bfc,#00438c);
 }
+
+@media only screen and (max-width: 991px) {
+    #blog-section img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    #blog-section img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #blog-section img {
+        width: 100%;
+    }
+}
